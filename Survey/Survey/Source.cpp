@@ -29,7 +29,7 @@ int main(){
 		if (input == 'a')
 			Chunli = Chunli + 1;
 		else if (input == 'c')
-			Ken = Ken + 1;
+			Ken = Ken + 3;
 		else if (input == 'b')
 			Ryu = Ryu + 1;
 		else if (input == 'd')
@@ -39,21 +39,21 @@ int main(){
 		cout << "what is your favorite thing in the world? (a) Family, (b) Competition, (c) Your car, (d) Your muscles" << endl;
 		cin >> input;
 		if (input == 'a')
-			Chunli = Chunli + 3;
+			Chunli = Chunli + 1;
 		else if (input == 'c')
-			Ken = Ken + 3;
+			Ken = Ken + 1;
 		else if (input == 'b')
 			Ryu = Ryu + 3;
 		else if (input == 'd')
-			Zangief = Zangief + 3;
+			Zangief = Zangief + 1;
 		
 	//fourth question
 		cout << "How would you describe your hair style? (a) Flashy, (b) Long and beautiful, (c) Morning hair, (d) Muscle is all that matters!" << endl;
 		cin >> input;
 		if (input == 'b')
-			Chunli = Chunli + 2;
+			Chunli = Chunli + 3;
 		else if (input == 'a')
-			Ken = Ken + 2;
+			Ken = Ken + 1;
 		else if (input == 'b')
 			Ryu = Ryu + 1;
 		else if (input == 'd')
@@ -67,34 +67,70 @@ int main(){
 		else if (input == 'c')
 			Ken = Ken + 1;
 		else if (input == 'b')
-			Ryu = Ryu + 2;
+			Ryu = Ryu + 1;
 		else if (input == 'd')
-			Zangief = Zangief + 2; 
+			Zangief = Zangief + 3; 
 
 	//sixth question 
 		cout << "How do you dress on special occasions? (a) With class, (b) Casual, (c) My friends usually pick what I should wear, (d) Doesn't matter, nothing fits" << endl;
 		cin >> input;
 		if (input == 'a')
-			Chunli = Chunli + 3;
-		else if (input == 'c')
-			Ken = Ken + 3;
+			Chunli = Chunli + 2;
 		else if (input == 'b')
-			Ryu = Ryu + 3;
+			Ken = Ken + 2;
+		else if (input == 'c')
+			Ryu = Ryu + 2;
 		else if (input == 'd')
-			Zangief = Zangief + 3;
+			Zangief = Zangief + 2;
 
 	//seventh question
 		cout << "What do people say about you? (a) Mysterious, (b) Honest and reliable, (c) Cocky, (d) inspirational" << endl;
 		cin >> input;
 		if (input == 'b')
-			Chunli = Chunli + 1;
+			Chunli = Chunli + 3;
 		else if (input == 'c')
-			Ken = Ken + 1;
+			Ken = Ken + 3;
 		else if (input == 'a')
+			Ryu = Ryu + 3;
+		else if (input == 'd')
+			Zangief = Zangief + 3;
+
+		//eighth question
+		cout << "What would your special move be? (a) Kikoken!, (b) Shoryuken!, (c) Hadouken!, (d) I'd rather just not use fireballs" << endl;
+		cin >> input;
+		if (input == 'a')
+			Chunli = Chunli + 2;
+		else if (input == 'b')
+			Ken = Ken + 2;
+		else if (input == 'c')
+			Ryu = Ryu + 2;
+		else if (input == 'd')
+			Zangief = Zangief + 4;
+		
+		//ninth question
+		cout << "How do people affect you? (a) They respect me, (b) They motivate me, (c) They guide me.., (d) They admire me!" << endl;
+		cin >> input;
+		if (input == 'a')
+			Chunli = Chunli + 2;
+		else if (input == 'b')
+			Ken = Ken + 2;
+		else if (input == 'c')
 			Ryu = Ryu + 2;
 		else if (input == 'd')
 			Zangief = Zangief + 2;
-		
+
+		//tenth question
+		cout << "How do you tackle big challenges in life? (a) 'I'll do my best!,' (b) 'Bring it on!, (c) '" << endl;
+		cin >> input;
+		if (input == 'a')
+			Chunli = Chunli + 2;
+		else if (input == 'b')
+			Ken = Ken + 2;
+		else if (input == 'c')
+			Ryu = Ryu + 2;
+		else if (input == 'd')
+			Zangief = Zangief + 2;
+
 		if ((Chunli > Ryu) && (Chunli > Ken) && (Chunli > Zangief))
 			cout << "You are Chun Li! A strong and independent Individual who looks to just live in a peacefull world with no crime. You will stop at nothing to make sure that those you care for are safe and living well." << endl;
 		else if ((Ken > Chunli) && (Ken > Ryu) && (Ken > Zangief))
