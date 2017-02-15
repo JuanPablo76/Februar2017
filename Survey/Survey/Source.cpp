@@ -120,7 +120,7 @@ int main(){
 			Zangief = Zangief + 2;
 
 		//tenth question
-		cout << "How do you tackle big challenges in life? (a) 'I'll do my best!,' (b) 'Bring it on!, (c) '" << endl;
+		cout << "How do you tackle big challenges in life? (a) 'I'll do my best!,' (b) 'Bring it on!, (c) 'I will learn from it' 'I'll use my muscles!'" << endl;
 		cin >> input;
 		if (input == 'a')
 			Chunli = Chunli + 2;
