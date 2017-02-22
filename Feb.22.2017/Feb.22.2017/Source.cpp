@@ -8,7 +8,7 @@ int main() {
 	double some;
 
 	cout << "do you want to (a)add, (b)subtract, (c)divide, or (d)multiply?" << endl;
-	
+
 	cin >> input;
 	if (input == 'a')
 		input = 1;
@@ -25,7 +25,7 @@ int main() {
 		cin >> num2;
 		some = num1 + num2;
 		cout << "Your calculation is.." << some << endl;
-		break; 
+		break;
 
 	case 2:
 		cout << "choose two numbers" << endl;
@@ -40,13 +40,13 @@ int main() {
 		cin >> num2;
 		some = num1 / num2;
 		cout << "Your calculation is.." << some << endl;
-			break;
+		break;
 	case 4:
 		cout << "choose two numbers" << endl;
 		cin >> num1;
 		cin >> num2;
 		some = num1 * num2;
 		cout << "Your calculation is.." << some << endl;
-	
+
 	}
 }
